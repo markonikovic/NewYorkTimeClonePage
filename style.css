@@ -6,10 +6,52 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    display: grid;
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: 50px 70% 50px ;
+    grid-template-areas:
+    "header header header"
+    "... main aside"
+    "footer footer footer"
+    ;
+}
+
+main{
+    grid-area: main;
+    background-color: aqua;
+}
+footer{
+    grid-area: footer;
+    background-color: yellow;
+}
+#main-sidebar{
+    /* height: 100%; */
+    /* margin: auto 0; */
+    grid-area: aside;
+    background-color: red;
+}
+aside{
+    background-color: crimson;
+}
+section{
+    background-color: darkgoldenrod;
+}
+
+#main-image{
+    width: 250px;
+    height: auto;
+    /* grid-area: main-image; */
+}
+
 
 header {
     height: 40px;
     border-bottom: 1px solid #e2e2e2;
+    grid-area: header;
+    background-color: brown;
 }
 nav{
     margin: 0 auto;
@@ -61,3 +103,4 @@ nav{
 #header-btn-section {
     height: auto;
 }
+
