@@ -183,6 +183,33 @@ li i {
 }
 
 .center {
-    margin: 10px 30%;
+    margin: 10px 28%;
     
+}
+.center > p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.center > h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+figure > iframe{
+     width: 100%;
+     height: 388px;
+ }
+figure > img {
+    display: block;
+margin: 0 auto;
+}
+#desc-p{
+margin: 0 25%;
+font-size: 0.75rem;
+}
+#iframe{
+    width: 100%;
+    height:800px;
+    border: none;
+    display: block;
+    margin: 0 auto;
 }
