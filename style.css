@@ -43,7 +43,9 @@ footer > a {
   margin-right: 30px;
   margin-left: 30px;
   margin-top: 100px;
+  color: black;
 }
+
 figure {
   margin: 0;
 }
@@ -161,11 +163,6 @@ div.social-buttons button.action-btn {
   height: auto;
 }
 
-#main-sidebar {
-  grid-area: aside;
-  margin-top: 200px;
-}
-
 #main-image {
   margin: 0 auto;
   width: 1200px;
@@ -175,6 +172,14 @@ div.social-buttons button.action-btn {
 #main-image-description {
   max-width: 70%;
   margin-top: 10px;
+  margin-left: 13%;
+}
+
+.picture-section-title > a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 
 #author-info {
@@ -204,8 +209,10 @@ div.social-buttons button.action-btn {
   display: block;
   margin: 0 auto;
 }
+
 #figure-huge {
   margin-left: 180px;
+  padding-left: 10%;
 }
 
 #main-section-ul {
@@ -253,13 +260,6 @@ section div.picture-section-float {
   clear: left;
 }
 
-.picture-section-title > a {
-  color: black;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-weight: 600;
-}
-
 #row-1 {
   border-top: 2px solid black;
   margin-top: 20px;
@@ -277,11 +277,13 @@ section div.picture-section-float {
   position: relative;
   left: 20px;
 }
+
 #most-pop-side > div > a {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
 }
+
 #most-pop-side > div {
   border-top: 2px solid gray;
   padding: 10px 0;
@@ -291,18 +293,22 @@ section div.picture-section-float {
   width: 300px;
   border-top: 2px solid gray;
 }
+
 #pre-footer {
   display: flex;
   margin-bottom: 20px;
 }
+
 #footer-container {
   border-top: 2px solid gray;
   margin-top: 30px;
 }
+
 #footer-container > a > img {
   width: 200px;
   margin-top: 10px;
 }
+
 #pre-footer > section > a {
   display: block;
   text-decoration: none;
@@ -312,38 +318,43 @@ section div.picture-section-float {
   font-family: Arial, Helvetica, sans-serif;
   width: 150px;
 }
+
 #subscribe-border {
   border-left: 1px solid gray;
   padding-left: 20px;
 }
-#main-sidebar>div>img{
-    width: 150px;
-    padding-bottom: 15px;
 
-}
-#main-sidebar{
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    position: relative;
-    top: 15%;
-}
-#main-sidebar>div>a{
-    text-decoration: none;
-    color: black;
-    align-self: center;
-    width: 150px;
-    margin-left:20px ;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-#main-sidebar>div{
-    display: flex;
-
-}
-#main-sidebar>h4{
-    display: block;
-    padding-bottom: 10px;
-    border-bottom: 1px solid gray;
+#main-sidebar > div > img {
+  width: 150px;
+  padding-bottom: 15px;
 }
 
+#main-sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  position: relative;
+  top: 12%;
+  left: -60%;
+  grid-area: aside;
+  margin-top: 200px;
+}
+
+#main-sidebar > div > a {
+  text-decoration: none;
+  color: black;
+  align-self: center;
+  width: 150px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-sidebar > div {
+  display: flex;
+}
+
+#main-sidebar > h4 {
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
