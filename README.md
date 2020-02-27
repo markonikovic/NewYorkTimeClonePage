@@ -1,6 +1,9 @@
-# NYT Clone
+## NYT Clone
 
 > This is our third project as mkicroverse students, we structured and styled a good looking copy of a New York Times's article page. 
+
+## Raw Version
+https://rawcdn.githack.com/markonikovic/NewYorkTimeClonePage/542459b8b61d0bb8585d4541cac2862974a678c0/index.html
 
 
 ## Built With
@@ -11,11 +14,12 @@
 
 ## Authors
 
-👤 ****
+👤 **Marko Nikovic**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+Github: @markonikovic
+Twitter: @MarkoNikovic
+Linkedin: marko-nikovic
+
 
 👤 **Illuminato Salvatore**
 
