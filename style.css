@@ -270,3 +270,26 @@ section div.picture-section-float {
   position: relative;
   top: 20px;
 }
+
+#most-pop-side{
+    border-top: 2px solid black;
+    margin-top: 20px;
+    position: relative;
+    left: 20px;
+}
+#most-pop-side>div>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+#most-pop-side>div{
+    border-top: 2px solid gray;
+    padding: 10px 0;
+}
+#pre-footer{
+    display: flex;
+}
+.footer-logo >img{
+    width: 300px;
+    border-top: 2px solid gray;
+}
