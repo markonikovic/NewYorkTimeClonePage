@@ -1,7 +1,6 @@
 ## NYT Clone
 
-> This is our third project as mkicroverse students, we structured and styled a good looking copy of a New York Times's article page.
-We used the CSS Grid to give a structure to the page, for navigation-bar and aside section flex-box, for pre-footer and picture area we used floats. The main idea of the project is to practice positioning the elements on the page.
+> This is our third project as Microverse students, we structured and styled a good looking copy of a New York Times's article page. The point of the project is to exercise position elements, styling and embedding images and videos. We used the CSS Grid to give a structure the page, for navigation-bar and aside section flex-box, for pre-footer and picture area we used floats. We embedded imates and a video, used semantic HTML tags. We followed the GitHub work-flow, and commited meaningful commit messages.
 
 ## Raw Version
 https://rawcdn.githack.com/markonikovic/NewYorkTimeClonePage/542459b8b61d0bb8585d4541cac2862974a678c0/index.html
