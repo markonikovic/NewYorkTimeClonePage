@@ -43,30 +43,97 @@ footer {
   justify-content: space-between;
   margin-left: -17%;
   width: 84%;
-  
 }
 
 footer > a {
   text-decoration: none;
   font-size: 10px;
   margin-right: 1px;
-
   margin-top: 10px;
   color: black;
 }
 
-#footer-container a:hover {
-  text-decoration: underline;
+.picture-section-title > a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.unlock > a {
+  display: block;
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+  margin-bottom: 10px;
 }
 
 main a:hover {
   text-decoration: none;
 }
 
-#picture-section a:hover {
-    color: gray;
+.picture-section a:hover {
+  text-decoration: underline;
 }
 
+#pre-footer > section > a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#author-info p a {
+  color: #333;
+  text-decoration: none;
+}
+
+.center > p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.unlock p {
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+#author-info p {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.center > h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#most-pop-side > div > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+#main-sidebar > div > a {
+  text-decoration: none;
+  color: black;
+  align-self: center;
+  width: 12em;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-container a:hover {
+  text-decoration: underline;
+}
+
+#footer-container {
+  border-top: 2px solid gray;
+  margin-top: 30px;
+  margin-left: -30%;
+  width: 150%;
+}
 
 figure {
   margin: 0;
@@ -143,16 +210,6 @@ div.social-buttons button.action-btn {
   font-size: 0.1em;
 }
 
-.center > h2 {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.center > p {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-
 #small-p {
   font-size: 0.8rem;
 }
@@ -190,7 +247,7 @@ div.social-buttons button.action-btn {
 }
 
 li > a > i:hover {
-  color:lightcyan;
+  color: lightcyan;
 }
 
 #main-image-description {
@@ -199,30 +256,8 @@ li > a > i:hover {
   margin-left: -50%;
 }
 
-.picture-section-title > a {
-  color: black;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-weight: 600;
-}
-
-.picture-section a:hover {
-  text-decoration: underline;
-}
-
 #author-info {
   flex: 1;
-}
-
-#author-info p {
-  color: #333;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-#author-info p a {
-  color: #333;
-  text-decoration: none;
 }
 
 #desc-p {
@@ -281,7 +316,7 @@ section article.picture-section-float {
 .picture-section-link {
   text-decoration: none;
   color: black;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -313,10 +348,8 @@ section article.picture-section-float {
   left: 20px;
 }
 
-#most-pop-side > div > a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.2rem;
+#picture-section a:hover {
+  color: gray;
 }
 
 #most-pop-side > div {
@@ -334,13 +367,6 @@ section article.picture-section-float {
   display: flex;
 }
 
-#footer-container {
-  border-top: 2px solid gray;
-  margin-top: 30px;
-  margin-left: -30%;
-  width: 150%;
-}
-
 #pre-footer > section {
   margin-right: 3%;
 }
@@ -348,14 +374,6 @@ section article.picture-section-float {
 #footer-container > a > img {
   width: 12em;
   margin-top: 10px;
-}
-
-#pre-footer > section > a {
-  display: block;
-  text-decoration: none;
-  color: black;
-  margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #subscribe-border {
@@ -379,7 +397,6 @@ section article.picture-section-float {
   margin-top: 250px;
   font-size: 14px;
   width: 40%;
-
 }
 
 .unlock {
@@ -389,32 +406,11 @@ section article.picture-section-float {
   font-weight: 700;
 }
 
-.unlock p {
-  margin-bottom: 2px;
-  margin-top: 10px; 
-}
-
-.unlock > a {
-  display: block;
-  text-decoration: none;
-  color: rgb(50, 104, 145);
-  margin-bottom: 10px;
-}
-
 .unlock > hr {
   width: 10%;
 }
 
-#main-sidebar > div > a {
-  text-decoration: none;
-  color: black;
-  align-self: center;
-  width: 12em;
-  margin-left: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-#main-sidebar > div > a:hover{
+#main-sidebar > div > a:hover {
   text-decoration: underline;
 }
 
