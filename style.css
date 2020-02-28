@@ -8,15 +8,19 @@ header {
   height: 40px;
   border-bottom: 1px solid #e2e2e2;
   grid-area: header;
+  color: white;
 }
 
 nav {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  border-bottom: 1px solid gray;
 }
 
 main {
@@ -27,7 +31,6 @@ main h1 {
   display: inline-block;
   max-width: 383.777px;
   font-size: 36px;
-  margin-left: 30%;
   margin-bottom: 10px;
 }
 
@@ -72,12 +75,13 @@ li i {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 10% 20% auto 20% 10%;
+  grid-template-columns: 10% 20% 40% 20% 10%;
   grid-template-rows: 50px auto 50px;
-  grid-template-areas: "header header header header header" ". main main aside ." ". footer footer footer .";
+  grid-template-areas: "header header header header header" ". . main aside ." ". footer footer footer .";
 }
 
 .header-div {
+  margin-left: 10px;
   display: flex;
   align-items: center;
 }
@@ -85,7 +89,8 @@ li i {
 .header-btn {
   border: none;
   background-color: inherit;
-  margin-right: 12px;
+  margin-right: 16px;
+  
 }
 
 .action-btn {
@@ -120,9 +125,9 @@ div.social-buttons button.action-btn {
   font-size: 2px;
 }
 
-.center {
-  margin: 10px 28%;
-}
+// .center {
+//   margin: 10px 28%;
+// }
 
 .center > h2 {
   font-size: 1.2rem;
@@ -161,18 +166,19 @@ div.social-buttons button.action-btn {
 
 #header-btn-section {
   height: auto;
+  margin-right: 10px;
 }
 
 #main-image {
-  margin: 0 auto;
-  width: 1200px;
+  width: 160%;
   height: 680px;
+  margin-left: -30%;
 }
 
 #main-image-description {
-  max-width: 70%;
+  max-width: 140%;
   margin-top: 10px;
-  margin-left: 13%;
+  margin-left: -30%;
 }
 
 .picture-section-title > a {
@@ -211,16 +217,24 @@ div.social-buttons button.action-btn {
 }
 
 #figure-huge {
-  margin-left: 180px;
-  padding-left: 10%;
-}
+  margin-left: -30%;
+  width: 160%;
+ }
+
 
 #main-section-ul {
   margin-right: 0;
 }
 
+#space-image {
+  margin-left: -10%;
+  width: 120%;;
+}
+
 #picture-section {
   display: flex;
+  margin-left: -50%;
+  width: 200%;
 }
 
 #picture-section > div {
@@ -238,7 +252,7 @@ div.social-buttons button.action-btn {
   margin-right: 20px;
 }
 
-section div.picture-section-float {
+section article.picture-section-float {
   float: left;
   width: 33.33333%;
 }
@@ -292,28 +306,40 @@ section div.picture-section-float {
 .footer-logo > img {
   width: 300px;
   border-top: 2px solid gray;
+  
 }
 
 #pre-footer {
-  display: flex;
   margin-bottom: 20px;
+
+
 }
 
 #footer-container {
   border-top: 2px solid gray;
   margin-top: 30px;
+  margin-left: -50%;
+  width: 200%;
+  
+}
+
+#pre-footer> section {
+  float: left;
+  margin-right: 5%;
 }
 
 #footer-container > a > img {
   width: 200px;
   margin-top: 10px;
+ 
+  
 }
 
 #pre-footer > section > a {
   display: block;
   text-decoration: none;
   color: black;
-  margin-right: 120px;
+  // margin-right: 120px;
   margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
   width: 150px;
@@ -335,7 +361,7 @@ section div.picture-section-float {
   height: 500px;
   position: relative;
   top: 12%;
-  left: -60%;
+  left: 10%;
   grid-area: aside;
   margin-top: 200px;
 }
