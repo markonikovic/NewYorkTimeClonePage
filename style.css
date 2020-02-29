@@ -261,8 +261,9 @@ li > a > i:hover {
 }
 
 #desc-p {
-  margin: 0 25%;
+  margin: 10px 0 0 -10%;
   font-size: 0.75rem;
+  width: 120%;
 }
 
 #iframe {
