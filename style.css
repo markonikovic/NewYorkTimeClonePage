@@ -58,6 +58,7 @@ footer > a {
   text-decoration: none;
   font-family: sans-serif;
   font-weight: 600;
+  font-size: 0.7em;
 }
 
 .unlock > a {
@@ -146,6 +147,11 @@ main a:hover {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
+}
+
+#most-pop-side h2 {
+  font-size: 1.2em;
+  margin: 22px 0;
 }
 
 #main-sidebar > div > a {
@@ -323,8 +329,8 @@ li > a > i:hover {
 
 #picture-section {
   display: flex;
-  margin-left: -30%;
-  width: 150%;
+  margin-left: -80%;
+  width: 270%;
 }
 
 #picture-section > div {
@@ -340,6 +346,9 @@ li > a > i:hover {
   text-align: right;
   font-size: 0.8rem;
   margin-right: 20px;
+  color: lightgray;
+  margin-bottom: 2px;
+
 }
 
 section article.picture-section-float {
@@ -350,14 +359,18 @@ section article.picture-section-float {
 .picture-section-link {
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 500%;
+  width: 80%;
+  display: block;
+
 }
 
 .picture-section-date {
   display: block;
-  margin-top: 10px;
+  margin-top: 2px;
   color: gray;
+  font-size: 0.8em;
 }
 
 .clear {
@@ -365,18 +378,24 @@ section article.picture-section-float {
 }
 
 #row-1 {
-  border-top: 2px solid black;
+  border-top: 1px solid black;
   margin-top: 20px;
+  margin-bottom: 35%;
 }
 
 #row-3 {
-  border-top: 2px solid black;
+  border-top: 1px solid black;
   position: relative;
   top: 20px;
+  margin-bottom: 35%;;
+}
+
+#row-2 {
+  margin-bottom: 15%;
 }
 
 #most-pop-side {
-  border-top: 2px solid black;
+  border-top: 1px solid black;
   margin-top: 20px;
   position: relative;
   left: 20px;
@@ -387,8 +406,9 @@ section article.picture-section-float {
 }
 
 #most-pop-side > div {
-  border-top: 2px solid gray;
+  border-top: 2px solid lightgray;
   padding: 10px 0;
+  margin: 10px 0;
 }
 
 .footer-logo > img {
