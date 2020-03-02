@@ -87,7 +87,7 @@ main a:hover {
   width: 160%;
 }
 
-.bold-links{
+.bold-links {
   font-weight: 800;
   font-size: 30px;
   text-align: left;
@@ -95,9 +95,22 @@ main a:hover {
   margin-top: 2px;
 }
 
+li i {
+  font-size: 1.2em;
+  color: gray;
+}
+
+li > a > i:hover {
+  color: lightgray;
+}
+
 #subscribe-border i {
   position: relative;
   top: 7px;
+}
+
+.unlock > hr {
+  width: 10%;
 }
 
 #subscribe-border hr {
@@ -123,7 +136,7 @@ main a:hover {
 }
 
 .center > p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.5rem;
 }
 
@@ -193,11 +206,6 @@ li {
   list-style-type: none;
 }
 
-li i {
-  font-size: 1.8em;
-  color: gray;
-}
-
 .wrapper {
   display: grid;
   grid-template-columns: 10% 25% 30% 25% 10%;
@@ -206,7 +214,7 @@ li i {
 }
 
 .header-div {
-  margin-left: 10px;
+  margin-left: 8%;
   display: flex;
   align-items: center;
 }
@@ -276,17 +284,13 @@ div.social-buttons button.action-btn {
 
 #header-btn-section {
   height: auto;
-  margin-right: 10px;
+  margin-right: 8%;
 }
 
 #main-image {
   width: 200%;
   height: 680px;
   margin-left: -50%;
-}
-
-li > a > i:hover {
-  color: lightcyan;
 }
 
 #main-image-description {
@@ -348,7 +352,6 @@ li > a > i:hover {
   margin-right: 20px;
   color: lightgray;
   margin-bottom: 2px;
-
 }
 
 section article.picture-section-float {
@@ -363,7 +366,6 @@ section article.picture-section-float {
   font-weight: 500%;
   width: 80%;
   display: block;
-
 }
 
 .picture-section-date {
@@ -387,7 +389,7 @@ section article.picture-section-float {
   border-top: 1px solid black;
   position: relative;
   top: 20px;
-  margin-bottom: 35%;;
+  margin-bottom: 35%;
 }
 
 #row-2 {
@@ -423,7 +425,7 @@ section article.picture-section-float {
 
 #pre-footer > section {
   margin-right: 8%;
-  font-size:0.8em;
+  font-size: 0.8em;
   width: 130%;
 }
 
@@ -436,7 +438,6 @@ section article.picture-section-float {
   border-left: 1px solid gray;
   padding-left: 20px;
   padding-right: 20px;
-  
 }
 
 #pre-footer #subscribe-border {
@@ -466,10 +467,6 @@ section article.picture-section-float {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-}
-
-.unlock > hr {
-  width: 10%;
 }
 
 #main-sidebar > div > a:hover {
