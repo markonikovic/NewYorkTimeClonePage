@@ -78,9 +78,18 @@ main a:hover {
 #pre-footer > section > a {
   display: block;
   text-decoration: none;
+  font-size: 0.9em;
   color: black;
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-right: 5px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold-links{
+  font-weight:700;
+  text-align: center;
+  /* display: flex; */
+  /* align-items: baseline; */
 }
 
 #author-info p a {
@@ -131,8 +140,8 @@ main a:hover {
 #footer-container {
   border-top: 2px solid gray;
   margin-top: 30px;
-  margin-left: -30%;
-  width: 150%;
+  margin-left: -80%;
+  width: 270%;
 }
 
 figure {
@@ -163,7 +172,7 @@ li i {
   display: grid;
   grid-template-columns: 10% 25% 30% 25% 10%;
   grid-template-rows: 50px auto auto;
-  grid-template-areas: "header header header header header" ". . main aside ." ". . footer footer .";
+  grid-template-areas: "header header header header header" ". . main aside ." "footer footer footer footer footer";
 }
 
 .header-div {
@@ -369,7 +378,8 @@ section article.picture-section-float {
 }
 
 #pre-footer > section {
-  margin-right: 3%;
+  margin-right: 8%;
+  font-size:0.8em;
 }
 
 #footer-container > a > img {
@@ -380,6 +390,7 @@ section article.picture-section-float {
 #subscribe-border {
   border-left: 1px solid gray;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 #main-sidebar > div > img {
