@@ -40,9 +40,9 @@ footer {
   grid-area: footer;
   border-top: 1px solid gray;
   display: flex;
-  justify-content: space-between;
-  margin-left: -17%;
-  width: 84%;
+  justify-content: space-around;
+  margin-left: 12%;
+  margin-right: 8%;
 }
 
 footer > a {
@@ -84,7 +84,7 @@ main a:hover {
   margin-top: 8px;
   margin-right: 5px;
   font-family: Arial, Helvetica, sans-serif;
-  width: 160%;
+  width: 180%;
 }
 
 .bold-links{
@@ -123,7 +123,7 @@ main a:hover {
 }
 
 .center > p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.5rem;
 }
 
@@ -194,7 +194,7 @@ li {
 }
 
 li i {
-  font-size: 1.8em;
+  font-size: 1em;
   color: gray;
 }
 
@@ -286,7 +286,7 @@ div.social-buttons button.action-btn {
 }
 
 li > a > i:hover {
-  color: lightcyan;
+  color: lightgray;
 }
 
 #main-image-description {
@@ -315,7 +315,23 @@ li > a > i:hover {
 
 #figure-huge {
   margin-left: -30%;
-  width: 160%;
+  width: 720px;
+  height: 600px;
+  background-image: url(./images/inflation-720.png);
+  background-size: cover;
+  display: flex;
+
+}
+
+#figure-huge > img{
+  display: block;
+  width: 720px;
+  height: 600px;
+}
+.image-text>p{
+  /* display: flex; */
+  width: 100px;
+  margin: 150px 10px;
 }
 
 #main-section-ul {
