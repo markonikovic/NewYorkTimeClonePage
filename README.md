@@ -1,5 +1,8 @@
 ## NYT Clone
 
+![image](https://user-images.githubusercontent.com/45266473/75916367-80d81800-5e58-11ea-8dda-d683474cdf70.png)
+
+
 > This is our third project as mkicroverse students, we structured and styled a good looking copy of a New York Times's article page.
 We used the CSS Grid to give a structure to the page, for navigation-bar and aside section flex-box, for pre-footer and picture area we used floats. The main idea of the project is to practice positioning the elements on the page.
 
