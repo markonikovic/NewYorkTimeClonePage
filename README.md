@@ -7,7 +7,7 @@
 We used the CSS Grid to give a structure to the page, for navigation-bar and aside section flex-box, for pre-footer and picture area we used floats. The main idea of the project is to practice positioning the elements on the page.
 
 ## Raw Version
-https://rawcdn.githack.com/markonikovic/NewYorkTimeClonePage/542459b8b61d0bb8585d4541cac2862974a678c0/index.html
+https://rawcdn.githack.com/markonikovic/NewYorkTimeClonePage/86771bfc7a2edd0a2438e13eee23eec65b5330bc/index.html
 
 
 ## Built With
